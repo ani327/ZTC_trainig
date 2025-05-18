@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>What is Version Control System?</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>What is Version Control System?</h1>
+    <div class="timeline">
+      <div class="event" onclick="showDetails(0)">
+        <div class="date">5/2/2017</div>
+        <div class="browser"><span>Home</span></div>
+        <div class="note">Add heading to index page</div>
+      </div>
+      <div class="event" onclick="showDetails(1)">
+        <div class="date">17/8/2017</div>
+        <div class="browser"><span>User Profile</span></div>
+        <div class="note">
+          Change index title to "User Profile" and add "xyz.png"
+        </div>
+      </div>
+      <div class="event" onclick="showDetails(2)">
+        <div class="date">24/11/2017</div>
+        <div class="browser"><span>User Profile</span></div>
+        <div class="note">Change the page layout</div>
+      </div>
+    </div>
+
+    <div class="details" id="detailsBox">
+      <h2>Commit Details</h2>
+      <p id="detailsText">Click a date to view changes.</p>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
